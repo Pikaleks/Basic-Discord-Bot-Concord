@@ -85,3 +85,21 @@ Find a way to change :
     * the bot status (online, idle, dnd, invisible)
     * the bot activity type (playing, streaming, listening, watching)
     * the bot activity text
+
+## Exercice 3 - Ping Pong
+
+Make a fonction that reply **Pong!** when the bot receive **ping** in a message
+
+*Bonus* : add the latency of the bot in the reply
+
+## Exercice 4 - Roles selection
+
+Make a function that send a button with multiple roles
+
+When a user click on a role the bot give him the role
+
+## Bonus
+
+* Slash commands
+* Embeds
+* Any other feature you want to add
