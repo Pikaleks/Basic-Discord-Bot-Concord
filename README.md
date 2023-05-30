@@ -11,6 +11,21 @@ Clone Concord repo
 ```bash
     git clone https://github.com/cogmasters/concord.git && cd concord
 ```
+
+Compile Concord
+
+```bash
+    sudo make
+```
+
+If a curl error appear, install curl
+
+```bash
+    sudo dnf install libcurl-devel
+```
+
+Then install Concord
+
 ```bash
     sudo make install
 ```
