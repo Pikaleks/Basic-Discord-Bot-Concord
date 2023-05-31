@@ -18,7 +18,7 @@ Compile Concord
     sudo make
 ```
 
-If a curl error appear, install curl
+If a curl error appear, install curl and compile again
 
 ```bash
     sudo dnf install libcurl-devel
@@ -79,14 +79,12 @@ For the file structure you can use the same as your C project
         "discord": {
             "token": "PUT YOUR TOKEN HERE",
             "default_prefix": {
-                "enable": false,
-                "prefix": "YOUR PREFIX HERE"
+                "enable": false
             }
         }
     }
     ```
     * just replace **PUT YOUR TOKEN HERE** by your token
-    * and **YOUR PREFIX HERE** by your prefix
 
 ## Exercice 1 - Launch the bot
 
@@ -113,8 +111,48 @@ Make a function that send a button with multiple roles
 
 When a user click on a role the bot give him the role
 
+## Exercice 5 - 8ball
+
+Make a function that reply a random answer when the bot receive a message starting with **<prefix>8ball**
+
+You are free to use the answers you want to display but here is a list of answers you can use :
+    
+```c
+char *phrases[] = {
+    "It is certain.",
+    "It is decidedly so.",
+    "Without a doubt.",
+    "Yes definitely.",
+    "You may rely on it.",
+    "As I see it, yes.",
+    "Most likely.",
+    "Outlook good.",
+    "Yes.",
+    "Signs Point to Yes.",
+    "Reply hazy, try again.",
+    "Ask again later.",
+    "Better not tell you now.",
+    "Cannot predict now.",
+    "Concentrate and ask again.",
+    "Don't count on it.",
+    "My reply is no.",
+    "My sources say no.",
+    "Outlook not so good.",
+    "Very doubtful.",
+};
+```
+
+## Exercice 6 - Help command
+
+Make a function that send a message with all the commands of the bot and their description using embeds
+
+## Exercice 7 - Shell
+
+Make a function that simulate a shell in Discord
+
+It work like your minishell but in Discord :D
+
 ## Bonus
 
-* Slash commands
-* Embeds
+* Do every command in slash commands
 * Any other feature you want to add
