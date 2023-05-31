@@ -93,6 +93,10 @@ Even the solution of the exercices
 But try to do it by yourself first, you can also ask us for help
 Have fun :D
 
+## Library
+
+https://cogmasters.github.io/concord/
+
 ## Exercice 1 - Launch the bot
 
 Make the main function that launch the bot and free it when the bot is stopped
