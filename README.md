@@ -86,6 +86,13 @@ For the file structure you can use the same as your C project
     ```
     * just replace **PUT YOUR TOKEN HERE** by your token
 
+## Warning
+
+You can find everything you need in the documentation
+Even the solution of the exercices
+But try to do it by yourself first, you can also ask us for help
+Have fun :D
+
 ## Exercice 1 - Launch the bot
 
 Make the main function that launch the bot and free it when the bot is stopped
